@@ -35,9 +35,20 @@ int funcion3(int x) {
     int y = x + 2;
     return y;
 
+// Funcion4(): Imprime un mensaje. Retorna el valor que recibio como argumento
+// decrece en 2 
 int funcion4(int x) {
     printf("En funcion4()...\n");
     int y = x - 2;
     return y;
+}
+
+// Funcion5 (): Imprime un mensaje. Retorna el valor que recibio como arcumento
+// Incrementea en 5
+int funcion5(int x) {
+    printf("En funcion5()...\n");
+    int y = x + 5;
+    return y;
+
 }
 }
